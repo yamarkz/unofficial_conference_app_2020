@@ -1,0 +1,36 @@
+name: unofficial_conference_app_2020
+description: Unofficial DroidKaigi App 2020
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  intl_translation:
+  http: ^0.12.0+4
+  rxdart: ^0.22.1
+  provider: ^3.1.0
+  collection: ^1.14.11
+  cupertino_icons: ^0.1.2
+  flutter_webview_plugin: ^0.3.10+1
+  firebase_core: ^0.4.3+2
+  cloud_firestore: ^0.13.0+1
+  firebase_auth: ^0.15.4
+  cached_network_image: ^2.0.0
+  google_fonts: ^0.2.0
+  shared_preferences: ^0.5.6+1
+  package_info: ^0.4.0+13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

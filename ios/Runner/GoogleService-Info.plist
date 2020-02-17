@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>682416130208-hd2pl1eqnivlk597i88c90209chhvvq3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.682416130208-hd2pl1eqnivlk597i88c90209chhvvq3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCsLxSzaomZGsLggdAJDglnUs_vriAuhqs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>682416130208</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.github.yamarkz.unofficial-conference-app-2020</string>
+	<key>PROJECT_ID</key>
+	<string>d-conference-45071</string>
+	<key>STORAGE_BUCKET</key>
+	<string>d-conference-45071.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:682416130208:ios:0651a8a5d68d5f09a1e1c5</string>
+	<key>DATABASE_URL</key>
+	<string>https://d-conference-45071.firebaseio.com</string>
+</dict>
+</plist>

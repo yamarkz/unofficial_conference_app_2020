@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "682416130208",
+    "firebase_url": "https://d-conference-45071.firebaseio.com",
+    "project_id": "d-conference-45071",
+    "storage_bucket": "d-conference-45071.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682416130208:android:83ef1d62c261207aa1e1c5",
+        "android_client_info": {
+          "package_name": "io.github.yamarkz.unofficial_conference_app_2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682416130208-l768r57mq5fff3vr1tkmb5t5j76jtgon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyfQ8fJ9Yuf5dz89ciV8hF9-ItrKnHyiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682416130208-l768r57mq5fff3vr1tkmb5t5j76jtgon.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "682416130208-hd2pl1eqnivlk597i88c90209chhvvq3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.github.yamarkz.unofficial-conference-app-2020"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
