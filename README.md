@@ -26,8 +26,8 @@ I'm very grateful for the staff, developers, designers and other contributors. :
 
 # Getting Started
 
-1. Install Flutter. See https://flutter.io/setup/
-2. Setting up the IntelliJ. See https://flutter.io/ide-setup/
+1. Install Flutter. See https://flutter.dev/setup/
+2. Setting up the IntelliJ. See https://flutter.dev/ide-setup/
 3. Fork and clone this repository.
 4. Move to unofficial_conference_app_2020 directory.
 5. Run flutter run command.
