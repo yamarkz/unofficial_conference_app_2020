@@ -40,23 +40,25 @@ class AnnounceItem extends StatelessWidget {
               children: <Widget>[
                 Text(
                   '2月20日 13:50',
-                  style: TextStyle(color: DroidKaigiColors.blackAlpha38),
+                  style: Theme.of(context).textTheme.subtitle.copyWith(
+                    color: Theme.of(context).colorScheme.onPrimary,
+                  ),
                 ),
                 const SizedBox(height: 6),
                 Text(
                   'フィードバックのお願い',
                   style: Theme.of(context).textTheme.title.copyWith(
-                        color: Theme.of(context).colorScheme.primary,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    color: Theme.of(context).colorScheme.onPrimary,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 6),
                 Text(
                   'セッションやDroidKaigi2019へのフィードバックを受け付けております。'
-                  '未回答の方はご協力ください。DroidKaigi 2019 にご来場いただき、ありがとうございました。',
+                      '未回答の方はご協力ください。DroidKaigi 2019 にご来場いただき、ありがとうございました。',
                   style: Theme.of(context).textTheme.subtitle.copyWith(
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
+                    color: Theme.of(context).colorScheme.onPrimary,
+                  ),
                 ),
               ],
             ),
