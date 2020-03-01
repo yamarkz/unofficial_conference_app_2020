@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:unofficial_conference_app_2020/src/blocs/timetable_tab_bloc.dart';
 import 'package:unofficial_conference_app_2020/src/blocs/timetable_tab_screen_bloc.dart';
 import 'package:unofficial_conference_app_2020/src/l10n/strings.dart';
+import 'package:unofficial_conference_app_2020/src/ui/routes/router.dart';
 import 'package:unofficial_conference_app_2020/src/ui/screens/timetable_screen/timetable_tab_screen.dart';
 
 class TimetableScreen extends StatelessWidget {
@@ -59,6 +60,14 @@ class TimetableScreen extends StatelessWidget {
           ),
         ],
       ),
+      actions: <Widget>[
+        IconButton(
+          icon: Icon(Icons.table_chart),
+          onPressed: () {
+            Navigator.of(context).pushNamed(RouteName.timetableV2);
+          },
+        ),
+      ],
     );
   }
 

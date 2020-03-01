@@ -12,6 +12,7 @@ import 'package:unofficial_conference_app_2020/src/blocs/timeline_screen/timelin
 import 'package:unofficial_conference_app_2020/src/blocs/timeline_screen/timeline_day_two_screen_bloc.dart';
 import 'package:unofficial_conference_app_2020/src/blocs/timeline_screen/timeline_my_plan_screen_bloc.dart';
 import 'package:unofficial_conference_app_2020/src/blocs/timetable_tab_bloc.dart';
+import 'package:unofficial_conference_app_2020/src/blocs/timetable_v2_bloc.dart';
 import 'package:unofficial_conference_app_2020/src/ui/main.dart';
 import 'package:unofficial_conference_app_2020/src/ui/routes/fade_animation_route.dart';
 import 'package:unofficial_conference_app_2020/src/ui/routes/standard_page_route.dart';
@@ -27,6 +28,7 @@ import 'package:unofficial_conference_app_2020/src/ui/screens/speaker_screen.dar
 import 'package:unofficial_conference_app_2020/src/ui/screens/splash_screen.dart';
 import 'package:unofficial_conference_app_2020/src/ui/screens/sponsor_screen.dart';
 import 'package:unofficial_conference_app_2020/src/ui/screens/timetable_screen/timetable_screen.dart';
+import 'package:unofficial_conference_app_2020/src/ui/screens/timetable_screen/timetable_v2_screen.dart';
 import 'package:unofficial_conference_app_2020/src/ui/screens/webview_screen.dart';
 
 class RouteName {
@@ -43,6 +45,7 @@ class RouteName {
   static const about = '/about';
   static const search = '/search';
   static const timetable = '/timetable';
+  static const timetableV2 = '/timetable_v2';
   static const webview = '/webview';
 }
 
@@ -161,6 +164,14 @@ class Router {
             create: (context) => TimetableTabBloc(),
             dispose: (_, bloc) => bloc.dispose(),
             child: TimetableScreen(),
+          ),
+        );
+      case RouteName.timetableV2:
+        return StandardPageRoute<void>(
+          builder: (_) => Provider<TimetableV2Bloc>(
+            create: (context) => TimetableV2Bloc(),
+            dispose: (_, bloc) => bloc.dispose(),
+            child: TimetableV2Screen(),
           ),
         );
       case RouteName.webview:

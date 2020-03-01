@@ -52,6 +52,12 @@ This Application uses Bloc Pattern based architecture using RxDart, Provider, St
 
 <img src="screenshot/implementation_1.png" width="600" />
 
+## Timetable ui
+
+<img src="screenshot/timetable_ui.png" height="440" />
+
+use package [here](https://github.com/yamarkz/flutter_timetable_view)
+
 # License
 
 ```
